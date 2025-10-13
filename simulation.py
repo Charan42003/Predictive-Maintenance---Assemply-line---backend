@@ -5,8 +5,8 @@ import json
 import os 
 from bson.objectid import ObjectId
 
-from .db import logs_collection, tickets_collection, get_all_tickets, get_latest_logs 
-from .llm_logic import predictive_analysis, check_similarity_and_report
+from db import logs_collection, tickets_collection, get_all_tickets, get_latest_logs 
+from llm_logic import predictive_analysis, check_similarity_and_report
 
 # --- RANGES and global state ---
 RANGES = {

@@ -7,9 +7,9 @@ import time
 from bson.objectid import ObjectId 
 
 # Import your modules
-from .db import get_latest_logs, seed_initial_tickets, get_all_tickets
-from .simulation import simulation_loop, start_fault_simulation, PREDICTIVE_ACTION_STATE, RANGES, resolve_current_fault
-from .llm_logic import vision_ai_report
+from db import get_latest_logs, seed_initial_tickets, get_all_tickets
+from simulation import simulation_loop, start_fault_simulation, PREDICTIVE_ACTION_STATE, RANGES, resolve_current_fault
+from llm_logic import vision_ai_report
 
 app = FastAPI()
 
