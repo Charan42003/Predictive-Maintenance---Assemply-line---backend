@@ -15,7 +15,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], 
+    allow_origins=["https://polite-river-0f61e460f.2.azurestaticapps.net"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
